@@ -1,0 +1,58 @@
+plugins {
+    id 'eclipse'
+    id 'net.neoforged.moddev' version '2.0.134'
+}
+
+group = 'com.example.obsidianoverhaul' // TODO: Change to your own group ID
+
+def apiVersion = '1.0.0'
+def mcCompat = '1.21.11'
+def neoForgeCompat = '21.11.13-beta'
+
+// Version visible in-game + used in the jar filename.
+version = "${apiVersion}-mc${mcCompat}-nf${neoForgeCompat}"
+base.archivesName = "obsidianoverhaul_api"
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+repositories {
+    // The NeoForged moddev plugin likely adds this automatically, but being explicit is good practice.
+    maven { url = 'https://maven.neoforged.net/releases' }
+}
+
+neoForge {
+    // NeoForge 21.11.x targets Minecraft 1.21.11 (Game Drops 2025)
+    version = neoForgeCompat
+
+    runs {
+        client {
+            client()
+        }
+        server {
+            server()
+        }
+
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.DEBUG
+        }
+    }
+
+    mods {
+        obsidianoverhaul_api {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}
+
+def patchBanner = "build ${base.archivesName} ${version}"
+
+tasks.named('build').configure {
+    doFirst {
+        println patchBanner
+    }
+}

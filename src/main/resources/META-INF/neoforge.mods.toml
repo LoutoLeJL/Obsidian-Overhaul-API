@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Apache-2.0"
+
+[[mods]]
+modId="obsidianoverhaul_api"
+version="${file.jarVersion}"
+displayName="Obsidian Overhaul API"
+authors="JLLouto"
+description="Shared API library for Obsidian Overhaul and addons."
+displayTest="MATCH_VERSION"
+
+[[dependencies.obsidianoverhaul_api]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.11.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.obsidianoverhaul_api]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.11,1.22)"
+    ordering="AFTER"
+    side="BOTH"

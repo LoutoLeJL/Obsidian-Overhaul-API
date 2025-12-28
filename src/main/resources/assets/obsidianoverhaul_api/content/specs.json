@@ -1,0 +1,136 @@
+{
+  "toolMaterials": {
+    "obsidian_pickaxe": {
+      "durability": 1800,
+      "speed": 8.5,
+      "attackDamageBonus": 0.0,
+      "enchantmentValue": 12,
+      "repairTag": "obsidianoverhaul:obsidian_pickaxe_repair_items"
+    },
+    "obsidian_sword": {
+      "durability": 1800,
+      "speed": 8.5,
+      "attackDamageBonus": 0.0,
+      "enchantmentValue": 12,
+      "repairTag": "obsidianoverhaul:obsidian_sword_repair_items"
+    },
+    "obsidian_axe": {
+      "durability": 1800,
+      "speed": 8.5,
+      "attackDamageBonus": 0.0,
+      "enchantmentValue": 12,
+      "repairTag": "obsidianoverhaul:obsidian_axe_repair_items"
+    },
+    "obsidian_hoe": {
+      "durability": 1800,
+      "speed": 9.0,
+      "attackDamageBonus": 0.0,
+      "enchantmentValue": 12,
+      "repairTag": "obsidianoverhaul:obsidian_hoe_repair_items"
+    },
+    "obsidian_shovel": {
+      "durability": 1800,
+      "speed": 8.5,
+      "attackDamageBonus": 0.0,
+      "enchantmentValue": 12,
+      "repairTag": "obsidianoverhaul:obsidian_shovel_repair_items"
+    },
+    "obsidian_spear": {
+      "durability": 1800,
+      "speed": 8.5,
+      "attackDamageBonus": 3.5,
+      "enchantmentValue": 12,
+      "repairTag": "obsidianoverhaul:obsidian_spear_repair_items"
+    },
+
+    "crying_obsidian_pickaxe": {
+      "durability": 1872,
+      "speed": 9.5,
+      "attackDamageBonus": 0.0,
+      "enchantmentValue": 12,
+      "repairTag": "obsidianoverhaul:crying_obsidian_pickaxe_repair_items"
+    },
+    "crying_obsidian_sword": {
+      "durability": 1872,
+      "speed": 9.0,
+      "attackDamageBonus": 0.0,
+      "enchantmentValue": 12,
+      "repairTag": "obsidianoverhaul:crying_obsidian_sword_repair_items"
+    },
+    "crying_obsidian_axe": {
+      "durability": 1872,
+      "speed": 9.0,
+      "attackDamageBonus": 0.0,
+      "enchantmentValue": 12,
+      "repairTag": "obsidianoverhaul:crying_obsidian_axe_repair_items"
+    },
+    "crying_obsidian_tools_hoe": {
+      "durability": 1872,
+      "speed": 9.5,
+      "attackDamageBonus": 0.0,
+      "enchantmentValue": 12,
+      "repairTag": "obsidianoverhaul:crying_obsidian_tools_hoe_repair_items"
+    },
+    "crying_obsidian_shovel": {
+      "durability": 1872,
+      "speed": 8.5,
+      "attackDamageBonus": 0.0,
+      "enchantmentValue": 12,
+      "repairTag": "obsidianoverhaul:crying_obsidian_shovel_repair_items"
+    },
+    "crying_obsidian_spear": {
+      "durability": 1921,
+      "speed": 9.0,
+      "attackDamageBonus": 3.75,
+      "enchantmentValue": 12,
+      "repairTag": "obsidianoverhaul:crying_obsidian_spear_repair_items"
+    }
+  },
+
+  "armorMaterials": {
+    "obsidian_armor": {
+      "durability": 35,
+      "boots": 3,
+      "leggings": 6,
+      "chestplate": 8,
+      "helmet": 3,
+      "body": 8,
+      "enchantmentValue": 10,
+      "toughness": 2.0,
+      "knockbackResistance": 0.05,
+      "repairTag": "obsidianoverhaul:obsidian_armor_repair_items",
+      "equipmentAsset": "obsidianoverhaul:obsidian_armor"
+    },
+    "crying_obsidian_armor": {
+      "durability": 35,
+      "boots": 4,
+      "leggings": 7,
+      "chestplate": 9,
+      "helmet": 4,
+      "body": 9,
+      "enchantmentValue": 10,
+      "toughness": 2.0,
+      "knockbackResistance": 0.05,
+      "repairTag": "obsidianoverhaul:crying_obsidian_armor_repair_items",
+      "equipmentAsset": "obsidianoverhaul:crying_obsidian_armor"
+    }
+  },
+
+  "blockStrengths": {
+    "obsidian_igots_block": { "strength": 50.0, "resistance": 1200.0 },
+    "obsidian_polished": { "strength": 10.0, "resistance": 800.0 },
+    "obsidian_slab": { "strength": 10.0, "resistance": 800.0 },
+    "obsidian_pillar": { "strength": 10.0, "resistance": 800.0 },
+    "obsidian_stair": { "strength": 10.0, "resistance": 800.0 },
+    "obsidian_fence": { "strength": 10.0, "resistance": 800.0 },
+    "obsidian_gate": { "strength": 10.0, "resistance": 800.0 },
+    "obsidian_door": { "strength": 10.0, "resistance": 800.0 },
+    "obsidian_trapdoor": { "strength": 10.0, "resistance": 800.0 },
+
+    "obsidian_wall": { "strength": 1.0, "resistance": 10.0 },
+    "pressureplate_obsidian": { "strength": 1.0, "resistance": 10.0 },
+
+    "crying_obsidian_fragmentore_ore": { "strength": 20.0, "resistance": 600.0 },
+    "crying_obsidian_ingot_block": { "strength": 55.0, "resistance": 1600.0 }
+  }
+}
