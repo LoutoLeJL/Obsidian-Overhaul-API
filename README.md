@@ -4,7 +4,7 @@ Shared API library for **Obsidian Overhaul** and addons.
 
 ## Compatibility
 
-- Minecraft: **1.21.11** (declared range: `1.21.11` → `<1.22`)
+- Minecraft: **1.21.11** (declared range: `1.21.11`)
 - NeoForge: **21.11.x** (declared range: `21.11.0+`)
 - Side: **Client + Dedicated Server** (`BOTH`)
 
